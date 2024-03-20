@@ -1,0 +1,57 @@
+.App {
+  text-align: center;
+}
+
+.App-header {
+  background-color: #282c34;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 1.5vmin);
+  color: white;
+}
+
+.App-link {
+  color: #61dafb;
+}
+
+.form-design{
+  background-color: aquamarine;
+  width: 30%;
+  color: #282c34;
+  border-radius: 20px;
+}
+.table-design{
+  margin-left: auto;
+  margin-right: auto;
+  width: 100%;
+}
+
+input[type=file]{
+  width: 60%;
+  font-size: 60%;
+}
+
+.errmsg{
+  background-color: red;
+  color: white;
+  border-radius: 20px;
+}
+
+/*ID Card*/
+img{
+  width: 40%;
+  height: 40%;
+  border: 2px solid aquamarine;
+}
+
+.id-design{
+  background-color: white;
+  width: 20%;
+  color: #282c34;
+  border-radius: 20px;
+  height: 400px;
+  border: 2px solid aquamarine;
+}
