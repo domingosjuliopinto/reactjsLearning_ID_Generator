@@ -1,20 +1,19 @@
 import React from 'react';
-import Idform from './idform';
+import Idgenerator from './idgenerator';
 
-import { Layout } from "antd";
-import Sider from 'antd/es/layout/Sider';
-import { Content } from 'antd/es/layout/layout';
-import Todo from './todo';
+import { BrowserRouter, Routes, Route } from "react-router-dom";
 
 
 function App() {
 
   return (
     <div>
-      <Layout>
-        <Sider><Todo/></Sider>
-        <Content><Idform/></Content>
-      </Layout>
+      <BrowserRouter>
+      <Routes>
+          <Route path="/" element={<Idgenerator />}/>  
+          <Route path="/reactjslearning_id_generator" element={<Idgenerator />} />
+      </Routes>
+    </BrowserRouter>
     </div>
   );
 }
